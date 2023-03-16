@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.atas {
+    margin: auto;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(174, 219, 174);
+}
+
+.biodata {
+    margin: auto;
+    height: 150px;
+    width: 100%;
+    background-color: darkseagreen;
+}
+
+/* .form {
+    margin: auto;
+    width: 100%;
+    background-color: lightgrey;
+} */
+
+.submit {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.header {
+    text-align: right;
+    margin-right: 25px;
+    font-size: smaller;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 12 px;
+}
+
+.profil img {
+    margin-left: 20px;
+    float: left ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.button1 {
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    /* margin right: 10px; */
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    /* margin right: 10px; */
+    cursor: pointer;
+}
+
+.data1 {
+    padding: 20px;
+    float: left;
+    padding-right: 100px;
+    line-height: 30px;
+} 
+
+.data2-bold {
+    padding: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    float: left;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.data2 {
+    padding: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    padding: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 30px;
+    background-color: lightgrey;
+    /* margin-right: 10px; */
+}

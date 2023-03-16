@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="atas">
+            <div class="header">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="product.html">GALLERY</a></li>
+                    <li><a href="product.html">BLOG</a></li>
+                    <li><a href="product.html">INVENTORY</a></li>
+                 </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+    
+    <!-- Heading -->
+    <div class="biodata">
+        <div class="profil">
+            <img src="azka.jpg" alt="Azka Ashla Ursila">
+        </div>
+
+        <div class="data1">
+            <h1 id="nama">Azka Ashla Ursila</h1>
+            <p id="role">Web Developer Program</p>
+            <button class="button1" onclick="editBiodata()"  id="edit-biodata-btn" style="border: solid 2px">Edit</button>
+            <button class="button2" onclick="cancelBiodata()" id="cancel-biodata-btn" style="border: solid 2px">Cancel</button>
+        </div>
+
+        <div class="data2-bold">
+            <p>Availability</p>
+            <p>Usia</p>
+            <p>Lokasi</p>
+            <p>Pengalaman</p>
+            <p>Email</p>
+        </div>
+
+        <div class="data2">
+            <p id="availability">Full Time</p>
+            <p id="usia">19</p>
+            <p id="lokasi">Malang</p>
+            <p id="pengalaman">2 Tahun</p>
+            <p id="email">ursilaazka13@gmail.com</p>
+        </div>
+    </div>
+    <!-- Heading end -->
+
+    <!-- Form -->
+    <div class="form"> 
+        <form>
+            <div>
+                <label for="Nama">Nama:</label><br>
+                <input type="text" id="nama-input" name="" placeholder="masukkan nama anda" style="border: solid 2px; width: 100%; height: 25px;"><br>
+            </div>
+            
+            <div>
+                <label for="Role">Role:</label><br>
+                <input type="text" id="role-input" name="" style="border: solid 2px; width: 100%; height: 25px;"><br>
+            </div>
+           
+            <div>
+                <label for="Availability">Availability:</label><br>
+                <input type="text" id="availability-input" name="" style="border: solid 2px; width: 100%; height: 25px;"><br>
+            </div>
+           
+            <div>
+                <label for="Usia">Usia:</label><br>
+                <input type="text" id="usia-input" name="" style="border: solid 2px; width: 100%; height: 25px;"><br>
+            </div>
+            
+            <div>
+                <label for="Lokasi">Lokasi:</label><br>
+                <input type="text" id="lokasi-input" name="" style="border: solid 2px; width: 100%; height: 25px;"><br>
+            </div>
+            
+            <div>
+                <label for="Years Experience">Years Experience:</label><br>
+                <input type="text" id="pengalaman-input" name="" style="border: solid 2px; width: 100%; height: 25px;"><br>
+            </div>
+            
+            <div>
+                <label for="Email">Email:</label><br>
+                <input type="text" id="email-input" name="" style="border: solid 2px; width: 100%; height: 25px;"><br>
+            </div>
+
+            <div class="submit">
+                <button type="submit" class="button-form" id="simpan-btn" style="border: solid 20px; width: 100%; height: 25px; background-color: rgb(42, 65, 104); color: aliceblue; border: none;">SUBMIT</button>
+            </div>
+          </form>
+    </div>
+    <!-- Form end -->
+</body>
+
+<script src="index.js"></script>
+
+</html>
